@@ -1,6 +1,6 @@
 # Hi, I'm Nischal 👋
 
-**Back-End & Agentic AI Engineer** • Bengaluru, India
+**FullStack AI Engineer** • Bengaluru, India
 
 I build production Python systems and ship LLM-integrated solutions. 1.7 years building real things — REST APIs, agentic AI loops, Docker stacks, CI/CD pipelines. Open-source contributor to LiteLLM.
 
