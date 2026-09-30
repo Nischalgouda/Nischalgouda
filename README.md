@@ -50,6 +50,6 @@ Tools         Claude Code · Cursor · Git
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=flat&logo=vercel&logoColor=white)](https://nischal-portfolio-psi.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/nischalgouda-patil-39b439279)
-[![LeetCode](https://img.shields.io/badge/LeetCode_200+-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/Nischalgouda2)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/Nischalgouda2)
 
 📧 nischalgouda11@gmail.com
