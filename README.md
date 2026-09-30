@@ -17,15 +17,6 @@ I build production Python systems and ship LLM-integrated solutions. 1.7 years b
 
 ## Projects
 
-### 🏆 [Affordra](https://github.com/nischalgouda) — AI Financial Decision Agent
-*HackerRank Orchestrate AI Hackathon • Ranked 45th of ~2,500 (Top 2%) • Sep 2026*
-
-Built and deployed a complete agentic AI system solo in 48 hours — agentic loop (context → Gemini VLM → tool call → validation → iteration), MCP-pattern tool integrations, 25K+ event data pipelines, custom eval framework that improved decision accuracy from 28% → 72%.
-
-### 🔧 [LiteLLM](https://github.com/BerriAI/litellm) — Open Source Contributor
-*Production Python LLM orchestration platform*
-
-Contributed routing logic, HTTP caching, and security hardening (input validation, auth hardening, prompt injection defense) to a platform used by thousands of engineering teams globally.
 
 ### 🏢 ZiniosEdge Invoice Portal
 *Production multi-tenant SaaS • 8-service Docker Compose stack*
