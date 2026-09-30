@@ -15,7 +15,7 @@ I build production Python systems and ship LLM-integrated solutions. 1.7 years b
 
 ---
 
-## Projects
+## Production Work
 
 
 ### 🏢 ZiniosEdge Invoice Portal
