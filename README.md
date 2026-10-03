@@ -8,9 +8,9 @@ I build production systems and ship LLM-integrated solutions. 1.7 years building
 
 ## What I do
 
-- **Back-end engineering** — Python, C# ASP.NET Core, FastAPI, Flask, REST APIs, PostgreSQL, Docker, GitHub Actions CI/CD
+- **Back-end engineering** — Python, C# ASP.NET Core, FastAPI, Flask, REST APIs, PostgreSQL
 - **Agentic AI** — complete agentic loops, MCP tool integrations, LLM orchestration, eval frameworks, prompt engineering
-- **DevOps & Observability** — Docker Compose, Nginx, Prometheus, Grafana, Azure
+- **DevOps & Observability** — Docker Compose, Nginx, Prometheus, Grafana, Azure, Docker, GitHub Actions CI/CD
 - **Frontend** — React 19, TypeScript, JavaScript, TailwindCSS
 
 ---
