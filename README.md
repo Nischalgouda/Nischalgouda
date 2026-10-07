@@ -2,7 +2,7 @@
 
 **FullStack AI Engineer** • Bengaluru, India
 
-I build production systems and ship LLM-integrated solutions. 1.7 years building real things — REST APIs, agentic AI loops, Docker stacks, CI/CD pipelines. Open-source contributions, you name it.
+I build production systems and ship LLM-integrated solutions. 1.7 years building real things. REST APIs, agentic AI loops, Docker stacks, CI/CD pipelines. Open-source contributions, you name it.
 
 ---
 
