@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-labelledby="t d">
+  <title id="t">Career path: frontend engineer, then fullstack engineer, then AI engineer</title>
+  <desc id="d">Three stages. Stage 1, frontend engineer: React, TypeScript, Zustand, design systems, accessibility. Stage 2, fullstack engineer: FastAPI, PostgreSQL, Docker, REST, auth, CI/CD. Stage 3, AI engineer, current: RAG, agents, evals, Azure OpenAI, AI Search, LiteLLM.</desc>
+  <style>
+    .sans { font-family: "Segoe UI", "SF Pro Display", Inter, "Helvetica Neue", Arial, sans-serif; }
+    .mono { font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, Menlo, monospace; }
+    .stage, .arrow { animation: rise 600ms cubic-bezier(.2,0,0,1) both; }
+    .s2 { animation-delay: 220ms } .s3 { animation-delay: 440ms } .a1 { animation-delay: 140ms } .a2 { animation-delay: 360ms }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+    @media (prefers-reduced-motion: reduce) { .stage, .arrow { animation: none } }
+  </style>
+  <rect x="0.5" y="0.5" width="1199" height="239" rx="10" fill="#fafafa" stroke="#dcdcdc"/>
+  <g class="stage s1">
+    <rect x="64" y="52" width="320" height="136" rx="8" fill="#ffffff" stroke="#dcdcdc" stroke-width="1"/>
+    <text class="mono" x="88" y="78" font-size="11" letter-spacing="1.6" fill="#8f8f8f">STAGE 1</text>
+    
+    <text class="sans" x="88" y="116" font-size="24" font-weight="650" letter-spacing="-0.6" fill="#171717">Frontend engineer</text>
+    <text class="mono" x="88" y="146" font-size="12" fill="#666666">React · TypeScript · Zustand</text>
+    <text class="mono" x="88" y="166" font-size="12" fill="#8f8f8f">design systems · accessibility</text>
+  </g>
+  <g class="stage s2">
+    <rect x="440" y="52" width="320" height="136" rx="8" fill="#ffffff" stroke="#dcdcdc" stroke-width="1"/>
+    <text class="mono" x="464" y="78" font-size="11" letter-spacing="1.6" fill="#8f8f8f">STAGE 2</text>
+    
+    <text class="sans" x="464" y="116" font-size="24" font-weight="650" letter-spacing="-0.6" fill="#171717">Fullstack engineer</text>
+    <text class="mono" x="464" y="146" font-size="12" fill="#666666">FastAPI · PostgreSQL · Docker</text>
+    <text class="mono" x="464" y="166" font-size="12" fill="#8f8f8f">REST · auth · CI/CD</text>
+  </g>
+  <g class="stage s3">
+    <rect x="816" y="52" width="320" height="136" rx="8" fill="#ffffff" stroke="#2a78d6" stroke-width="2"/>
+    <text class="mono" x="840" y="78" font-size="11" letter-spacing="1.6" fill="#8f8f8f">STAGE 3</text>
+    <text class="mono" x="1112" y="78" font-size="11" letter-spacing="1.2" text-anchor="end" fill="#2a78d6">NOW</text>
+    <text class="sans" x="840" y="116" font-size="24" font-weight="650" letter-spacing="-0.6" fill="#171717">AI engineer</text>
+    <text class="mono" x="840" y="146" font-size="12" fill="#666666">RAG · agents · evals</text>
+    <text class="mono" x="840" y="166" font-size="12" fill="#8f8f8f">Azure OpenAI · AI Search · LiteLLM</text>
+  </g>
+  <path class="arrow a1" d="M398 120 H424 M417 113 L424 120 L417 127" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="arrow a2" d="M774 120 H800 M793 113 L800 120 L793 127" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="mono" x="64" y="218" font-size="12" letter-spacing="1.2" fill="#8f8f8f">FRONTEND ROOTS  ·  FULL-STACK REACH  ·  AI ON TOP</text>
+</svg>

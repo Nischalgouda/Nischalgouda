@@ -1,13 +1,13 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img src="assets/banner-light.svg" alt="Nischalgouda Patil, FullStack AI Engineer in Bengaluru. I build the systems around the model." width="100%">
+    <img src="assets/banner-light.svg" alt="Nischalgouda Patil, FullStack AI Engineer in Bengaluru. I build the systems around the model, from pixel to pipeline." width="100%">
   </picture>
 </div>
 
 <br>
 
-Production backends and LLM-integrated systems: REST APIs, agentic loops, Docker stacks and CI/CD, plus the unglamorous parts that make them trustworthy (evals, rate limits, observability, cost controls). 1.7 years of shipping real things, and contributing to open source along the way.
+Full-stack engineer who started in the front end and followed the data all the way down: React and TypeScript interfaces, FastAPI and PostgreSQL services, LLM and RAG systems, and the unglamorous parts that make them trustworthy (evals, rate limits, observability, cost controls). 1.7 years of shipping real things, and contributing to open source along the way.
 
 <div align="center">
 
@@ -20,37 +20,61 @@ Production backends and LLM-integrated systems: REST APIs, agentic loops, Docker
 
 <br>
 
+## The build path
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/path-dark.svg">
+    <img src="assets/path-light.svg" alt="Career path in three stages: frontend engineer (React, TypeScript, Zustand), fullstack engineer (FastAPI, PostgreSQL, Docker), and, now, AI engineer (RAG, agents, evals)." width="100%">
+  </picture>
+</div>
+
+<br>
+
 ## Featured
 
 | Project | What it is | Links |
 | :--- | :--- | :--- |
-| **RAG X-ray** | See why a RAG system answers, or refuses. Every chunk scored against the question, the refusal threshold drawn on the chart, and whether the model was called at all. Azure OpenAI and Azure AI Search hybrid retrieval, an eval harness, rate limits, a daily token budget and a kill switch. FastAPI and React. | [Live demo](https://rag-xray.agreeablesky-d286d090.centralus.azurecontainerapps.io) · [Code](https://github.com/Nischalgouda/rag-with-azure-openai) |
-| **FlowForge** | A visual builder for LLM pipelines: drag nodes, wire them up, press Run and watch each step execute live. A FastAPI engine validates the graph, runs it in topological order and streams progress over server-sent events. Gemini and Claude behind a provider adapter. | [Live](https://flow-forge-liard.vercel.app/) |
+| **RAG X-ray** | See why a RAG system answers, or refuses. Every chunk scored against the question, the refusal threshold drawn on the chart, and whether the model was called at all. React, TypeScript, Zustand and TanStack Query front end with design tokens and automated accessibility tests; FastAPI back end on Azure OpenAI and Azure AI Search hybrid retrieval, with an eval harness, rate limits, a daily token budget and a kill switch. | [Live demo](https://rag-xray.agreeablesky-d286d090.centralus.azurecontainerapps.io) · [Code](https://github.com/Nischalgouda/rag-with-azure-openai) |
+| **FlowForge** | A visual builder for LLM pipelines: drag nodes, wire them up, press Run and watch each step execute live. React, ReactFlow and Zustand front end; a FastAPI engine validates the graph, runs it in topological order and streams progress over server-sent events. Gemini and Claude behind a provider adapter. | [Live](https://flow-forge-liard.vercel.app/) |
 | **ZiniosEdge Invoice Portal** | Production multi-tenant SaaS on an 8-service Docker Compose stack: ASP.NET Core 9, JWT and RBAC, EF Core and PostgreSQL, React 19 and TypeScript, SignalR, Prometheus and Grafana, SSL-terminated Nginx. Also shipped an AI chatbot into the HR portal on an OpenRouter free-model fallback chain, at $0 LLM cost. | Production (private) |
 | **Affordra** | A financial agent, in active development. | In progress |
 
 <br>
 
-## What I work on
+## How I think
 
-- **Back-end engineering:** Python, FastAPI, Flask, C# ASP.NET Core, REST APIs, PostgreSQL
-- **Agentic AI and RAG:** agentic loops, MCP tool integrations, hybrid retrieval, evaluation frameworks, prompt engineering
-- **DevOps and observability:** Docker, GitHub Actions, Azure Container Apps, Prometheus, Grafana, Nginx
-- **Front-end:** React, TypeScript, JavaScript, Tailwind
+- **Measure, then fix the cause.** Traced requests took 7 to 9 seconds. Running three independent search queries concurrently and reusing HTTP clients brought refusals to about 1 to 2 seconds and answers to about 3 to 5.
+- **Calibrate, don't guess.** A refusal threshold that was right at 0.52 for one embedding model was 0.23 for another. An evaluation set caught it; intuition didn't.
+- **Defense in depth.** A similarity guardrail, a grounded prompt, rate limits that can't be dodged by forging a header, a daily token budget and a kill switch.
+- **Own the whole path.** From the React state store to the Docker image, CI and a repeatable Azure deploy, and say plainly which part isn't done yet.
 
 ## Stack
 
 | | |
 | :--- | :--- |
-| **Languages** | Python (primary) · TypeScript · C# · SQL |
-| **Back-end** | FastAPI · Flask · ASP.NET Core · REST · PostgreSQL |
+| **Front-end** | React 19 · TypeScript · Zustand · TanStack Query · ReactFlow · Tailwind · Vite · Vitest |
+| **Back-end** | Python (primary) · FastAPI · Flask · C# ASP.NET Core · REST · PostgreSQL · SQL |
 | **AI / LLM** | Azure OpenAI · Azure AI Search · LiteLLM · Gemini · MCP · RAG and evals |
 | **Cloud / DevOps** | Azure · Docker · GitHub Actions · Prometheus · Grafana · Nginx |
 | **Tools** | Claude Code · Cursor · Git |
 
+## Off the clock, same instincts at work
+
+| Outside the editor | At work |
+| :--- | :--- |
+| **Guitar** | Scales first, then improvise. Same with algorithm patterns and system design. |
+| **Biking** | Gear check before every ride and the helmet always on: tests, health checks and guardrails. |
+| **Sekiro** | Posture, not health, decides the fight. Latency is the same: it's rarely the number you were watching. |
+| **Marvel Rivals** | Team composition wins. No service carries alone; each has a clear role. |
+| **Pokémon** | Type matchups are tool choice. Hybrid search is a dual-type move: vector plus keyword. |
+| **Grand Blue** | Dive in headfirst, laugh at the chaos, and always keep a rollback plan. |
+| **Sons of Anarchy** | A club runs on rules and loyalty. Mine has rate limits, admin keys and a kill switch. |
+| **Fashion** | Fit and finish. I care about spacing and type the way I care about tailoring. |
+
 ## Right now
 
-- Shipping **RAG X-ray** in public and writing up what broke along the way (a retired model, a quota of zero, a refusal threshold that was 0.52 on one embedding model and 0.23 on another).
+- Shipping **RAG X-ray** in public and writing up what broke along the way (a retired model, a quota of zero, a refusal threshold that moved between embedding models).
 - Contributing to **LiteLLM**.
 - Sharpening algorithms and backend fundamentals, one problem a day.
 

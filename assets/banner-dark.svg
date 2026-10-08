@@ -14,8 +14,8 @@
 
   <text class="mono" x="64" y="82" font-size="13" letter-spacing="1.6" fill="#a1a1a1">FULLSTACK AI ENGINEER  ·  BENGALURU</text>
   <text class="sans" x="62" y="152" font-size="56" font-weight="650" letter-spacing="-2.2" fill="#ededed">Nischalgouda Patil</text>
-  <text class="sans" x="64" y="198" font-size="24" fill="#a1a1a1">I build the systems around the model.</text>
-  <text class="mono" x="64" y="242" font-size="13" fill="#6b6b73">FastAPI  ·  React  ·  Azure  ·  LLM systems</text>
+  <text class="sans" x="64" y="198" font-size="22" fill="#a1a1a1">I build the systems around the model, from pixel to pipeline.</text>
+  <text class="mono" x="64" y="242" font-size="13" fill="#6b6b73">React  ·  TypeScript  ·  Zustand  ·  FastAPI  ·  Azure  ·  LLM systems</text>
 
   <!-- a tiny version of the RAG X-ray chart: similarity bars and the refusal threshold -->
   <g transform="translate(110,0)">
@@ -23,12 +23,12 @@
     <g>
       <rect class="bar b1" x="800" y="104" width="143" height="13" rx="3" fill="#3987e5"/>
       <rect class="bar b2" x="800" y="126" width="105" height="13" rx="3" fill="#3987e5"/>
-      <rect class="bar b3" x="800" y="148" width="65"  height="13" rx="3" fill="#d95926"/>
-      <rect class="bar b4" x="800" y="170" width="48"  height="13" rx="3" fill="#d95926"/>
-      <rect class="bar b5" x="800" y="192" width="41"  height="13" rx="3" fill="#d95926"/>
-      <rect class="bar b6" x="800" y="214" width="34"  height="13" rx="3" fill="#d95926"/>
-      <rect class="bar b7" x="800" y="236" width="31"  height="13" rx="3" fill="#d95926"/>
-      <rect class="bar b8" x="800" y="258" width="24"  height="13" rx="3" fill="#d95926"/>
+      <rect class="bar b3" x="800" y="148" width="65" height="13" rx="3" fill="#d95926"/>
+      <rect class="bar b4" x="800" y="170" width="48" height="13" rx="3" fill="#d95926"/>
+      <rect class="bar b5" x="800" y="192" width="41" height="13" rx="3" fill="#d95926"/>
+      <rect class="bar b6" x="800" y="214" width="34" height="13" rx="3" fill="#d95926"/>
+      <rect class="bar b7" x="800" y="236" width="31" height="13" rx="3" fill="#d95926"/>
+      <rect class="bar b8" x="800" y="258" width="24" height="13" rx="3" fill="#d95926"/>
     </g>
     <line x1="878" y1="96" x2="878" y2="280" stroke="#ededed" stroke-width="2"/>
     <text class="mono" x="888" y="96" font-size="11" fill="#ededed">threshold 0.23</text>
