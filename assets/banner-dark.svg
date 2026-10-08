@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Nischalgouda Patil, FullStack AI Engineer</title>
+  <desc id="d">A banner with the name, role and tagline beside a small similarity bar chart with a threshold line.</desc>
+  <style>
+    .sans { font-family: "Segoe UI", "SF Pro Display", Inter, "Helvetica Neue", Arial, sans-serif; }
+    .mono { font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, Menlo, monospace; }
+    .bar { transform-box: fill-box; transform-origin: left center; animation: grow 900ms cubic-bezier(.2,0,0,1) both; }
+    .b2 { animation-delay: 70ms } .b3 { animation-delay: 140ms } .b4 { animation-delay: 210ms }
+    .b5 { animation-delay: 280ms } .b6 { animation-delay: 350ms } .b7 { animation-delay: 420ms } .b8 { animation-delay: 490ms }
+    @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    @media (prefers-reduced-motion: reduce) { .bar { animation: none } }
+  </style>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="10" fill="#0a0a0b" stroke="#2f2f35"/>
+
+  <text class="mono" x="64" y="82" font-size="13" letter-spacing="1.6" fill="#a1a1a1">FULLSTACK AI ENGINEER  ·  BENGALURU</text>
+  <text class="sans" x="62" y="152" font-size="56" font-weight="650" letter-spacing="-2.2" fill="#ededed">Nischalgouda Patil</text>
+  <text class="sans" x="64" y="198" font-size="24" fill="#a1a1a1">I build the systems around the model.</text>
+  <text class="mono" x="64" y="242" font-size="13" fill="#6b6b73">FastAPI  ·  React  ·  Azure  ·  LLM systems</text>
+
+  <!-- a tiny version of the RAG X-ray chart: similarity bars and the refusal threshold -->
+  <g transform="translate(110,0)">
+    <text class="mono" x="800" y="70" font-size="12" letter-spacing="1.4" fill="#6b6b73">SIMILARITY TO THE QUESTION</text>
+    <g>
+      <rect class="bar b1" x="800" y="104" width="143" height="13" rx="3" fill="#3987e5"/>
+      <rect class="bar b2" x="800" y="126" width="105" height="13" rx="3" fill="#3987e5"/>
+      <rect class="bar b3" x="800" y="148" width="65"  height="13" rx="3" fill="#d95926"/>
+      <rect class="bar b4" x="800" y="170" width="48"  height="13" rx="3" fill="#d95926"/>
+      <rect class="bar b5" x="800" y="192" width="41"  height="13" rx="3" fill="#d95926"/>
+      <rect class="bar b6" x="800" y="214" width="34"  height="13" rx="3" fill="#d95926"/>
+      <rect class="bar b7" x="800" y="236" width="31"  height="13" rx="3" fill="#d95926"/>
+      <rect class="bar b8" x="800" y="258" width="24"  height="13" rx="3" fill="#d95926"/>
+    </g>
+    <line x1="878" y1="96" x2="878" y2="280" stroke="#ededed" stroke-width="2"/>
+    <text class="mono" x="888" y="96" font-size="11" fill="#ededed">threshold 0.23</text>
+  </g>
+</svg>
