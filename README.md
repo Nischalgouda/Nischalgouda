@@ -63,20 +63,21 @@ Full-stack engineer who started in the front end and followed the data all the w
 
 | Outside the editor | At work |
 | :--- | :--- |
-| **Guitar** | Scales first, then improvise. Same with algorithm patterns and system design. |
-| **Biking** | Gear check before every ride and the helmet always on: tests, health checks and guardrails. |
-| **Sekiro** | Posture, not health, decides the fight. Latency is the same: it's rarely the number you were watching. |
-| **Marvel Rivals** | Team composition wins. No service carries alone; each has a clear role. |
-| **Pokémon** | Type matchups are tool choice. Hybrid search is a dual-type move: vector plus keyword. |
-| **Grand Blue** | Dive in headfirst, laugh at the chaos, and always keep a rollback plan. |
-| **Sons of Anarchy** | A club runs on rules and loyalty. Mine has rate limits, admin keys and a kill switch. |
-| **Fashion** | Fit and finish. I care about spacing and type the way I care about tailoring. |
+| <img src="assets/icons/guitar.svg" width="22" align="absmiddle" alt=""> **Guitar** | Scales first, then improvise. Same with algorithm patterns and system design. |
+| <img src="assets/icons/bike.svg" width="22" align="absmiddle" alt=""> **Biking** | Gear check before every ride and the helmet always on: tests, health checks and guardrails. |
+| <img src="assets/icons/sekiro.svg" width="22" align="absmiddle" alt=""> **Sekiro** | Posture, not health, decides the fight. Latency is the same: it's rarely the number you were watching. |
+| <img src="assets/icons/team.svg" width="22" align="absmiddle" alt=""> **Marvel Rivals** | Team composition wins. No service carries alone; each has a clear role. |
+| <img src="assets/icons/pokemon.svg" width="22" align="absmiddle" alt=""> **Pokémon** | Type matchups are tool choice. Hybrid search is a dual-type move: vector plus keyword. |
+| <img src="assets/icons/grand-blue.svg" width="22" align="absmiddle" alt=""> **Grand Blue** | Dive in headfirst, laugh at the chaos, and always keep a rollback plan. |
+| <img src="assets/icons/club.svg" width="22" align="absmiddle" alt=""> **Sons of Anarchy** | A club runs on rules and loyalty. Mine has rate limits, admin keys and a kill switch. |
+| <img src="assets/icons/one-piece.svg" width="22" align="absmiddle" alt=""> **One Piece** | Sail to the next island. Big goals ship as small, finished milestones: an API, then a UI, then a hosted demo. |
+| <img src="assets/icons/fashion.svg" width="22" align="absmiddle" alt=""> **Fashion** | Fit and finish. I care about spacing and type the way I care about tailoring. |
 
 ## Right now
 
 - Shipping **RAG X-ray** in public and writing up what broke along the way (a retired model, a quota of zero, a refusal threshold that moved between embedding models).
 - Contributing to **LiteLLM**.
-- Sharpening algorithms and backend fundamentals, one problem a day.
+- Going deeper on production system design: caching, queues, auth and observability, plus evaluation and monitoring for RAG.
 
 <br>
 
